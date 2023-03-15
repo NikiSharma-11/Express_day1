@@ -13,7 +13,33 @@ app.get('/user',(req, res)=>{
     res.send(users);
 });
 
+// app.get('/category',(req, res)=>{
+//     res.send(categories);
+// });
 
+// app.get('/add-category', (req, res)=>{
+//     if(req.query.name){
+//         users.push(req.query.name);
+//         res.send("Category Added");
+//     }
+//     else 
+//     {
+//         res.send("please provide category name")
+//     }
+// })
+
+// app.get('/Delete-category', (req, res)=>{
+//     if(req.query.name){
+//         categories = categories.filter((category)=>{
+//             return category!== req.query.name;
+//         });
+//         res.send("Category Deleted");
+//     }
+//     else 
+//     {
+//         res.send("please provide category name")
+//     }
+// })
 
 
 
